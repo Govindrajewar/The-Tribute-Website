@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.container {
+    width: 50%;
+    background-color: aliceblue;
+    border: 10px double black;
+    padding: 25px;
+}
+
+.page-head {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.page-header #header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page-header p,
+.page-header h4,
+footer {
+    text-align: end;
+}
+
+article {
+    margin-top: 10px;
+    text-align: justify;
+}
